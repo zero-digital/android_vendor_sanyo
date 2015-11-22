@@ -19,6 +19,7 @@ PRODUCT_COPY_FILES := \
 	vendor/sanyo/wifi/sd8787_uapsta.bin:system/lib/module/sd8787_uapsta.bin \
 	vendor/sanyo/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
 	vendor/sanyo/wifi/wpa_supplicant:system/bin/wpa_supplicant \
+	vendor/sanyo/wifi/narcpi.ko:system/etc/filtering/narcpi.ko \
 	vendor/sanyo/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
 	vendor/sanyo/hw/audio.primary.default.so:system/lib/hw/audio.primary.default.so \
 	vendor/sanyo/hw/audio_policy.default.so:system/lib/hw/audio_policy.default.so \
